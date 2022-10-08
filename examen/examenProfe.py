@@ -8,8 +8,8 @@ class Persona(threading.Thread):
     palillos = []
     conta = 0
 
-    def _init_(self):
-        super(Persona, self)._init_()
+    def __init__(self):
+        super(Persona, self).__init__()
         self.id  = Persona.conta
         Persona.conta += 1
         Persona.palillos.append(threading.Lock())
