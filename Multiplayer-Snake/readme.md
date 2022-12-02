@@ -1,1 +1,1 @@
-test
+#Pasos para probar el juego
