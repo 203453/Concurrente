@@ -26,3 +26,5 @@ Puede existir un error de IP, la implementación de esto está hecho para recono
 
 ### Server.py activo
 Es de suma importancia tener activo el servidor para que los clientes puedan conectarse al mismo, mientras se intente ejecutar el cliente y el servidor (server.py) esté inactivo, este no conectará y se cerrara el cliente automáticamente.
+
+#### Python 3.10
