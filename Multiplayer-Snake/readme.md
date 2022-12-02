@@ -15,6 +15,12 @@
 
 # Aspectos a tener en cuenta
 
+### Librerias instaladas
+#### PyGame
+     pip install pygame
+#### PlaySound
+     pip install playsound
+
 ### Errores con la IP
 Puede existir un error de IP, la implementación de esto está hecho para reconocer la IP del equipo que ejecutará el juego, por lo que es lo adecuado para realizar las pruebas en una sola máquina, al usar dos máquinas, tendríamos que iniciar el servidor en la máquina que queramos pero la otra máquina en el código "server" tiene que ser igual a la IP de la máquina donde se ejecutará el server.py. (server es una variable usada para referirse a la IP donde se alojará el servidor)
 
